@@ -9,18 +9,22 @@ import Why from './pages/Why/Why'
 import Numbers from './pages/Numbers/Numbers'
 import Industry from './pages/Industry/Industry'
 import Careers from './pages/Careers/Careers'
+import Services from './pages/Services/Services';
+import Calculator from './pages/Calculator/Calculator';
 
 
 function App() {
   return <>
     <Header />
     <Hero/>
+    <Services/>
     <Vision/>
+    <Numbers/>
     <Quality/>
     <Why/>
-    <Numbers/>
+    <Calculator/>
     <Industry/>
-    <Careers/>
+    {/* <Careers/> */}
     <Footer />
   </>
 }

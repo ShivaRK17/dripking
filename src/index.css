@@ -18,3 +18,16 @@
 body{
   overflow-x: hidden;
 }
+
+::-webkit-scrollbar-thumb {
+  background: rgb(5,223,114);
+  border-radius: 10px;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: black;
+  z-index: 19;
+}
+

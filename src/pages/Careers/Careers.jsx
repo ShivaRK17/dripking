@@ -8,13 +8,10 @@ const Careers = () => {
     <div className="flex flex-col md:flex-row min-h-screen w-full z-5 montserrat-med relative">
       {/* Left Side - Content */}
       <motion.div
-        className="bg-black md:w-1/2 w-full flex items-center justify-center p-6"
-        initial={{ opacity: 0, x: -50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
+        className="bg-[#121212] md:w-1/2 w-full flex items-center justify-center p-6"
+        
       >
-        <div className="bg-black/90 text-white p-8 md:p-12 rounded-2xl max-w-lg w-full relative flex">
+        <div className="bg-[#121212]/90 text-white p-8 md:p-12 rounded-2xl max-w-lg w-full relative flex">
           {/* Animated Line */}
           <motion.div
             className="w-[2px] bg-white mr-6"
@@ -39,7 +36,7 @@ const Careers = () => {
               <div className="px-3 py-1 hover:bg-white hover:text-black transition-colors duration-300 cursor-pointer">
                 Openings
               </div>
-              <div className="flex items-center justify-center px-3 bg-black text-black">
+              <div className="flex items-center justify-center px-3 bg-[#121212] text-black">
                 <img className="h-4" src={arrowUrl} alt="arrow icon" />
               </div>
             </motion.button>
@@ -49,11 +46,8 @@ const Careers = () => {
 
       {/* Right Side - Job Carousel */}
       <motion.div
-        className="md:w-1/2 w-full bg-black text-white py-6 px-4"
-        initial={{ opacity: 0, x: 50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
+        className="md:w-1/2 w-full bg-[#121212] text-white py-6 px-4"
+        
       >
         <JobCarousel />
       </motion.div>

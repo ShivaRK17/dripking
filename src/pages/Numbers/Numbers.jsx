@@ -73,7 +73,7 @@ const StatCard = ({ number, suffix = '', label }) => {
       <div className='flex-1'>
 
         <div className="relative mt-1">
-          <div className="h-[2px] w-10 bg-black group-hover:w-16 transition-all duration-300 origin-left" />
+          <motion.div initial={{width:0}} whileInView={{width:'100%'}} transition={{duration:1}} className="h-[2px] bg-[#121212] group-hover:w-16 transition-all duration-300 origin-left ease-out" />
           <p className="text-xs uppercase text-gray-500 tracking-widest mt-1">{label}</p>
         </div>
       </div>
@@ -86,7 +86,7 @@ const Numbers = () => {
     <section className="w-full min-h-screen grid grid-cols-1 md:grid-cols-2 bg-white z-50 relative montserrat-med">
       <div className="h-full w-full">
         <img
-          src="https://static.wixstatic.com/media/427abb_6a77882b600b45ae9b0edee517f1ec93~mv2.jpg/v1/fill/w_948,h_912,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/427abb_6a77882b600b45ae9b0edee517f1ec93~mv2.jpg"
+          src="https://agricultureguruji.com/wp-content/uploads/2018/05/head-unit.jpg.webp"
           alt="bg"
           className="w-full h-full object-cover"
         />

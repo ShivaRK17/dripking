@@ -40,8 +40,8 @@ const JobCarousel = () => {
   }, []);
 
   return (
-    <div className="bg-black min-h-[500px] flex items-center justify-center px-4">
-      <div className="bg-black border border-white/20 text-white rounded-2xl max-w-md w-full p-8 relative">
+    <div className="bg-[#121212] min-h-[500px] flex items-center justify-center px-4">
+      <div className="bg-[#121212] border border-white/20 text-white rounded-2xl max-w-md w-full p-8 relative">
         <AnimatePresence mode="wait">
           <motion.div
             key={current}

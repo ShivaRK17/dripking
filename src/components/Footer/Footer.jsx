@@ -8,7 +8,7 @@ const Footer = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="relative z-10 bg-white text-black py-16 px-6 md:px-20 overflow-hidden"
+      className="relative z-10 bg-green-200 text-black py-16 px-6 md:px-20 overflow-hidden"
     >
       {/* Background floating shape */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-10">
@@ -50,7 +50,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="absolute right-1 top-1 bottom-1 px-5 bg-black text-white rounded-md text-sm font-medium hover:bg-cyan-200 hover:text-black transition"
+              className="absolute right-1 top-1 bottom-1 px-5 bg-[#121212] text-white rounded-md text-sm font-medium hover:bg-cyan-200 hover:text-black transition"
             >
               Subscribe
             </button>

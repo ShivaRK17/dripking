@@ -6,21 +6,18 @@ const brandImage =
 
 const Industry = () => {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen w-full z-5 montserrat-med relative">
+    <div id='brands' className="flex flex-col md:flex-row min-h-screen w-full z-5 montserrat-med relative">
       {/* Left Text Section */}
       <motion.div
-        className="bg-black md:w-1/2 w-full flex items-center justify-center p-6"
-        initial={{ opacity: 0, x: -50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
+        className="bg-[#121212] md:w-1/2 w-full flex items-center justify-center p-6"
+        
       >
-        <div className="bg-black/90 text-white p-8 md:p-12 rounded-2xl max-w-lg w-full relative flex">
+        <div className="bg-[#121212]/90 h-full items-center text-white p-8 md:p-12 rounded-2xl max-w-lg w-full relative flex">
           {/* Animated Vertical Line */}
           <motion.div
             className="w-[2px] bg-white mr-6"
             initial={{ height: 0 }}
-            whileInView={{ height: '100%' }}
+            whileInView={{ height: '60%' }}
             transition={{ duration: 1 }}
           />
           {/* Text */}
@@ -38,11 +35,8 @@ const Industry = () => {
 
       {/* Right Image Grid Section */}
       <motion.div
-        className="md:w-1/2 w-full bg-black text-white py-6 px-4"
-        initial={{ opacity: 0, x: 50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
+        className="md:w-1/2 w-full bg-[#121212] text-white py-6 px-4"
+        
       >
         <div className="grid grid-cols-2 gap-10 h-full w-full items-center justify-center">
           {[1, 2, 3, 4].map((_, i) => (
