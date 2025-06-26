@@ -21,15 +21,15 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-semibold tracking-wide mb-4">Dripking</h2>
           <div className="space-y-4 text-black/80 text-sm">
-            <p className="flex items-start gap-3">
+            {/*<p className="flex items-start gap-3">
               <Phone className="w-4 h-4 mt-1" /> +91 8xxxx xxxxx
-            </p>
+            </p>*/}
             <p className="flex items-start gap-3">
-              <Mail className="w-4 h-4 mt-1" /> info@dripking.in
+              <Mail className="w-4 h-4 mt-1" /> admin@dripking.co
             </p>
             <p className="flex items-start gap-3 leading-snug">
               <MapPin className="w-4 h-4 mt-1" />
-              Address - Blank 123/23 - Plot - Street - 2354x1
+              Address - Lusaka, Zambia
             </p>
           </div>
         </div>
