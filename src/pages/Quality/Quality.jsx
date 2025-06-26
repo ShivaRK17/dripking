@@ -40,7 +40,8 @@ const Quality = () => {
       >
         <img
           className="w-full h-full object-cover"
-          src="https://lh3.googleusercontent.com/proxy/mQg2S1ubO1MJKqQ455mjs4Mmmwp5L6r-NniQOBbXh4LVKo9auX5URJLuzWwQF92dCjnIAxZrv5SjQt2R0j4vJxIO_EboHDJXBN-v9XLqj6avTsGbvuPrA1Eauxx8wtS889c"
+          // src="https://lh3.googleusercontent.com/proxy/mQg2S1ubO1MJKqQ455mjs4Mmmwp5L6r-NniQOBbXh4LVKo9auX5URJLuzWwQF92dCjnIAxZrv5SjQt2R0j4vJxIO_EboHDJXBN-v9XLqj6avTsGbvuPrA1Eauxx8wtS889c"
+          src="https://image.made-in-china.com/202f0j00DhvkCSTEYozL/1-Hectare-Drip-Hose-Reel-Irrigation-Flat-Tape-Drip-Irrigation-System-Pipes-Agriculture-Farm-Irrigation-System-Drip-Tape.webp"
           alt="Quality"
         />
       </motion.div>
