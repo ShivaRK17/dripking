@@ -76,7 +76,7 @@ const Hero = () => {
         {/* Right Visual / Image Placeholder */}
         <div className="flex-1 flex items-center justify-center">
           {/* Replace this div with irrigation-themed image or animated graphic */}
-          <img src="/heroimg.png" className="drop-shadow-[0_10px_10px_rgba(5,223,114,0.4)]" alt="" />
+          <img src="/heroimg2.png" className="drop-shadow-[0_10px_10px_rgba(5,223,114,0.4)]" alt="" />
           {/* <div className="w-[300px] h-[300px] bg-gradient-to-br from-sky-400 to-green-600 rounded-full shadow-xl ring-4 ring-white/20">
           </div> */}
         </div>
