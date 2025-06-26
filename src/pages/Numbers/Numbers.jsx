@@ -28,10 +28,10 @@ import { useEffect, useRef, useState } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
 
 const stats = [
-  { number: 200, suffix: '+', label: 'Dealer Network' },
+  { number: 50, suffix: '+', label: 'Dealer Network' },
   { number: 2, label: 'Core Teams' },
-  { number: 100, suffix: 'M₹', label: 'Monetary Power' },
-  { number: 50, suffix: '+', label: 'Employee Force' },
+  { number: 1, suffix: 'M$', label: 'Monetary Power' },
+  { number: 20, suffix: '+', label: 'Employee Force' },
 ];
 
 const StatCard = ({ number, suffix = '', label }) => {
